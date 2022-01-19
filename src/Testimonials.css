@@ -1,0 +1,24 @@
+.testimonials{
+    background-color: #F7F7F7;
+    color: #727557;
+    padding-bottom: 15%;
+}
+.testimonials--container{
+    display: flex;
+    justify-content: space-around;
+    padding: 6% 5%;
+}
+.testimonials h2{
+    font-weight: 400;
+    font-size: 2.5rem;
+    padding-top: 8%;
+}
+.testimonials p{
+    font-size: 1.2rem;
+}
+.testimonials--header{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}

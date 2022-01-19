@@ -1,0 +1,93 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 2;
+}
+.header--right{
+    display: flex;
+    justify-content: flex-end;
+    width: 70%;
+    padding-right: 9%;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li, .dropdown--menu button {
+    float: left;
+    padding: 5% 16px;
+  }
+  
+  li a{
+    display: block;
+    color: black;
+    text-align: center;
+  }
+  a{
+    text-decoration: none;
+    color: black;
+  }
+  .header--left{
+    padding: 3% 4%;
+    font-size: 1.25rem;
+  }
+  .dropdown{
+    display: none;
+    float: left;
+    overflow: hidden;
+  }
+  .menu{
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    padding: 5%;
+    background-color: inherit;
+    font-family: inherit;
+    cursor: pointer;
+  }
+  .dropdown--menu{
+    position: absolute;
+    width: 100px;
+    z-index: 1;
+    margin-top: 8%;
+    overflow-x: hidden;
+  }
+  .dropdown--menu a{
+    float: none;
+    color: black;
+    padding: 4% 8% 4% 2%;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    background-color: white;
+    font-size: 1.2rem;
+    width: 100px;
+    border-color: white;
+  }
+  @media only screen and (max-width: 1040px) {
+    .header--right--items{
+      display: none;
+    }
+    .dropdown{
+      display: flex;
+    }
+    .dropdown--menu{
+      margin-top: 5vw;
+    }
+  }
+  @media only screen and (max-width: 675px) {
+
+    .dropdown--menu{
+      margin-top: 7vw;
+    }
+  }
+  @media only screen and (max-width: 425px) {
+
+    .dropdown--menu{
+      margin-top: 9vw;
+    }
+  }

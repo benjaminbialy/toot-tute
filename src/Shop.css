@@ -1,0 +1,48 @@
+.shop{
+    padding: 10% 15%;
+    border-bottom-width: 20rem;
+}
+.shop--item{
+    display: flex;
+    width: 100%;
+}
+.shop--header{
+    background-color: white;
+    border-bottom-style: solid;
+    border-color: black;
+    border-top-color: white;
+    border-width: .05rem;
+    font-family: sans-serif;
+    padding: 5% 10%;
+    line-height: 1.5rem;
+}
+.shop--header h1{
+    font-size: 3rem;
+}
+.shop--items{
+    border-style: solid;
+    border-top-color: white;
+    border-bottom-color: black;
+    border-right-color: white;
+    border-left-color: white;
+    border-width: .01rem;
+}
+@media only screen and (max-width: 1200px) {
+    .shop{
+        padding: 2% 1%;
+    }
+}
+@media only screen and (max-width: 800px){
+    .shopitem{
+        display: flex;
+        flex-direction: column !important;
+        justify-content: center;
+        align-items: center;
+    }
+    .shop--header h1{
+        font-size: 4vh;
+    }
+    .shop--header p{
+        font-size: 2vh;
+    }
+}

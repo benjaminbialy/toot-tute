@@ -1,0 +1,36 @@
+.book__now{
+    background-color:#F7F7F7;
+}
+.booking--img{
+    background:url("./IMG_8223.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.booking--info{
+    margin: 0%;
+    background-color:#F7F7F7;
+    padding: 5% 15%;
+}
+.booking--info h1{
+    font-size: 4rem;
+    font-weight: 400;
+    color: #E21C21;
+}
+.booking--info p{
+    font-size: 1.25rem;
+    padding-top: .75%;
+}
+.booking--info a{
+    font-size: 1rem;
+    border-style: solid;
+    border-width: thin;
+    padding: 1% 2%;
+    font-family: sans-serif;
+    color: #E21C21;
+}
+.booking--button{
+    padding: 5% 0;
+}

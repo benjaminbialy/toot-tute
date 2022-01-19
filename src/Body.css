@@ -1,0 +1,231 @@
+.body--bkg{
+    background: url("./IMG_8222.jpg") no-repeat top center fixed;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-align: center;
+ } 
+.body--tutoring{
+    background-color: #F7F7F7;
+    padding: 5% 22.5%;
+    text-align: center;
+    color: #727577;
+}
+.body--tutoring h2{
+    font-size: 5vw;
+}
+.body--tutoring p{
+    padding-bottom: 4%;
+    font-size: 1.5vw;
+}
+.body--split{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.body--split--img, .body--split--about__us{
+    max-width: 50%;
+    padding: 0%;
+    flex: 1;
+    min-height: 100vh;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.body--split--about__us{
+    background-color: #727557;
+    color: #FFFFFF;
+}
+.body--split--about__us h2{
+    padding: 15% 15% .5% 15%;
+    font-size: 2.5vw;
+}
+.body--split--about__us p{
+    padding: 2.5% 15%;
+    font-size: 1.3vw;
+    line-height: 4vh;
+}
+#padding--bottom{
+    padding-bottom: 20%;
+}
+.body--services{
+    text-align: center;
+    padding: 10% 5% 5% 5%;
+    color: #727577;
+}
+.body--services h2{
+    font-size: 2.5em;
+}
+.body--services p{
+    padding-bottom: 6%;
+    font-size: 1.2em;
+}
+.body--services--split{
+    display: flex;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+.body--services--split--img, 
+.body--services--split--info
+{
+    width: 100%;
+}
+.body--services--split--info{
+    background-color: #F7F7F7;
+    color: #727577;
+    line-height: 1.7em;
+}
+.body--services--split--info h3{
+    padding-top: 17.5%;
+}
+.body--services--split--info p{
+    padding: 4.5% 10%;
+}
+.body--services--split--info a{
+    border-style: solid;
+    border-width: thin;
+    padding: 1.5% 2%;
+    font-family: sans-serif;
+    color: #727577;
+}
+.body--purchasing--split{
+    background-color: #727557;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-around;
+    padding: 5% 15%;
+    text-align: center;
+}
+.body--purchasing--split p, .body--purchasing--split h2{
+    width: 50%;
+}
+.body--purchasing--split h2{
+    font-size: 4em;
+    text-align: left;
+}
+.body--purchasing--split p{
+    padding-top: 8%;
+}
+.body--scroller{
+    position: relative;
+    margin: auto;
+}
+.previous--button, .next--button{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -.75%;
+    padding: 2% 3%;
+    color: white;
+    font-weight: bold;
+    font-size: 2em;
+    transition: 0.6s ease;
+    user-select: none;
+
+}
+.next--button{
+    right: 0;
+  }
+.previous--button:hover, .next--button:hover {
+    color: #727577;
+  }
+.body--scroller h2{
+    position: absolute;
+    top: 30%;
+    color: #FFFFFF;
+    padding: 2.5% 12.5%;
+    font-size: 5em;
+}
+.view--shop{
+    color: #FFFFFF;
+    font-size: 1.2em;
+    font-weight: 400;
+    border-color: #FFFFFF;
+    position: absolute;
+    top: 77%;
+    left: 12.5%;
+    padding: .5% 4%;
+    border-style: solid;
+    border-width: thin;
+    border-radius: 20px;
+}
+.body--scroller--text h2{
+    font-size: 5vw;
+}
+@media screen and (max-width: 1300px) {
+    .body--split{
+        flex-direction: column-reverse;
+        align-items: center;
+        width: 100%;
+    }
+    .body--split--img{
+        background-color: #c2f0c8;
+        padding: 0;
+        min-width: 100%;
+        height: 50vh;
+    }
+    .body--split--img img{
+        max-width: 100%;
+        object-fit: contain;
+    }
+    .body--split--about__us{
+        min-width: 100%;
+    }
+    .body--split--about__us h2{
+        font-size: 3em;
+    }
+    .body--split--about__us p{
+        font-size: 3vw;
+        line-height: 2.7em;
+        font-size: 1.2rem;
+    }
+    .body--services--split{
+        flex-direction: column;
+        align-items: center;
+    }
+    .body--services--split--info{
+        padding-bottom: 5%;
+    }
+    .body--purchasing--split{
+        flex-direction: column;
+        align-items: center;
+    }
+    .body--purchasing--split h2{
+        font-size: 3em;
+        margin-bottom: 0;
+        text-align: center;
+    }
+    .body--purchasing--split p{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .body--tutoring h2, .body--purchasing--split h2{ 
+        font-size: 2.5rem;
+    }
+    .body--tutoring p, .body--purchasing--split p{ 
+        font-size: 1.5rem;
+    }
+    .body--services{
+        padding:  0;
+    }
+    .body--services--split--info h3{
+        font-size: 2rem;
+    }
+    .body--services--split--info p{
+        padding-bottom: 2%;
+        padding-top: 0%;
+        font-size: 1.2rem;
+    }
+    .body--purchasing--split p, .body--purchasing--split h2{
+        width: 100%;
+        
+    }
+    .view--shop{
+        font-size: .75rem;
+    }
+  }

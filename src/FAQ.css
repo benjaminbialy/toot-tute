@@ -1,0 +1,19 @@
+.faq{
+    background-color: #F7F7F7;
+    color: #727557;
+    padding-bottom: 5%;
+}
+.faq--header{
+    padding: 10% 10% 5% 10%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.faq--header h2{
+    font-weight: 400;
+    font-size: 2.5rem;
+}
+.faq--header p{
+ font-size: 1.2rem;   
+}

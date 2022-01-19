@@ -1,0 +1,14 @@
+.testimonial{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    text-align: center;
+    justify-content: center;
+}
+.name{
+    margin-top: auto;
+    padding-top: 5%;
+}
+.quote{
+    padding: 0 42.5%;
+}

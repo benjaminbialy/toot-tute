@@ -1,0 +1,43 @@
+.contact{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    color: #727577;
+    line-height: 1.7rem;
+}
+.contact--info p{
+    padding: 2.5% 15%;
+}
+.contact--info h2{
+    padding: 4% 5% 0 5%;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 2.5% 15%;
+}
+label{
+    padding: 1% 0;
+    text-align: left;
+}
+input{
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: solid;
+    border-width: thin;
+}
+textarea:focus, input:focus{
+    outline: none;
+}
+*:focus {
+    outline: none;
+}
+#submit--button{
+    margin: 2% 0;
+    border-style: solid;
+    background-color: black;
+    color: white;
+    padding: 1.5% 0;
+}
