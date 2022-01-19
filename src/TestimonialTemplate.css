@@ -12,3 +12,16 @@
 .quote{
     padding: 0 42.5%;
 }
+@media screen and (max-width: 992px) {
+    .testimonial{
+        width: 75vw;
+        margin: 5% 0;
+    }
+    .testimonial p{
+        width: 100%;
+    }
+    .quote{
+        padding: 0%;
+        align-self: center;
+    }
+  }

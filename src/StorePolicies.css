@@ -1,6 +1,6 @@
 .store__policies--split{
     display: flex;
-    height: 90vh;
+    height: auto;
     width: 100%;
 }
 .policy--img{
@@ -31,4 +31,28 @@
     padding: 10% 18%;
     font-size: 1.1rem;
     line-height: 1.5rem;
+}
+@media screen and (max-width: 768px) {
+    .store__policies--split{
+        flex-direction: column;
+        height: auto;
+    }
+    .store__policies--split{
+        width: 100%;
+    }
+    .policies{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        padding: 5% 5%;
+        width: 90%;
+        align-items: center;
+    }
+    .policies h2, .policies p{
+        padding: 0;
+    }
+    .policy--img{
+        height: 60vh;
+        width: 100%;
+    }
 }
